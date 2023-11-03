@@ -1,23 +1,31 @@
-import logo from './logo.svg';
+
 import './App.css';
+// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import NavBar from './components/NavBar/NavBar';
+import Hero from './components/Hero/Hero';
+import Courses from './components/courses/Courses';
+import Footer from './components/Footer/Footer';
+import Login from './components/LoginSignUp/Login';
+import Enroll from './components/Enroll/Enroll';
+import DashBoard2 from './components/AdminDashboard/DashBoard2';
+import Teacher from './components/AdminDashboard/Teachers/Teacher';
+import Students from './components/AdminDashboard/Students/Students';
+// import Dashboard from './components/AdminDashboard/Dashboard';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar/>
+      <Hero/>
+      <Courses/>
+      <Enroll/>
+      <Login/>      
+      <DashBoard2/>
+      <Teacher/>
+      <Students/>
+      <Footer/>
+      
     </div>
   );
 }
