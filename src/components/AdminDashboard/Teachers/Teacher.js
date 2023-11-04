@@ -20,9 +20,9 @@ function Teacher() {
     <td>Alfred Doe</td>
     <td>alfred@doe.com</td>
     <td >
-        <AiFillEye size={24}/>
-        <BiEdit size={24} style={{color:"#6674cc"}}/>
-        <AiOutlineDelete size={24} style={{color:"red"}}/>
+        <AiFillEye size={24} style= {{ cursor:"pointer"}} />
+        <BiEdit size={24} style={{color:"#6674cc" , cursor:"pointer"}}/>
+        <AiOutlineDelete size={24} style={{color:"red" , cursor:"pointer"}}/>
     </td>
   </tr>
   
