@@ -11,6 +11,7 @@ import DashBoard2 from './components/AdminDashboard/DashBoard2';
 import Teacher from './components/AdminDashboard/Teachers/Teacher';
 import Students from './components/AdminDashboard/Students/Students';
 import CoursesCrud from './components/AdminDashboard/CoursesCrud/CoursesCrud';
+import StudentCourse from './components/StudentCourse/StudentCourse';
 // import Dashboard from './components/AdminDashboard/Dashboard';
 
 
@@ -26,6 +27,7 @@ function App() {
       <Teacher/>
       <Students/>
       <CoursesCrud/>
+      <StudentCourse/>
       <Footer/>
       
     </div>

@@ -60,7 +60,7 @@
     padding: 15px 0;
     border-radius: 8px;
     border: none;
-    background-color: #6674cc;
+    background-color: #2b3fc7;
     color: white;
     font-size: 18px;
     font-weight: 400;
@@ -68,7 +68,8 @@
     transition: 0.3s ease-in-out;
 }
 .courseCard button:hover{
-    background-color: #2b3fc7;
+    background-color: #6674cc;
+    
 
 }
 .Description{

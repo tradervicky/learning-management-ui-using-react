@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+.mainCourseContainer{
+    height: 95vh;
+    background-color: #6674cc;
+    padding: 25px 100px;
+    margin-bottom: 200px;
+    display: flex;
+}
+.Coursetext{
+    width: 65%;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.Coursetext p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: whitesmoke;
+    width: 70%;
+}
+.Coursetext h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    width: 70%;
+}
+.language{
+    display: flex;
+    gap: 25px;
+    flex-direction: row;
+}
